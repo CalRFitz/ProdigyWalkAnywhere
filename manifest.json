@@ -1,9 +1,10 @@
 {
  "manifest_version": 2,
  "name": "Prodigy auto-walk anywhere",
- "version": "1.1",
+ "version": "2.1",
  "content_scripts": [
   {
+   "matches": ["https://math.prodigygame.com/"]
    "js": "content.js"
   }]
 }
